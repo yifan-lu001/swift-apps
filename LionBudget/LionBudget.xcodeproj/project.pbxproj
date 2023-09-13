@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE707BC929E75FDB00F5E219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE707BC829E75FDB00F5E219 /* Assets.xcassets */; };
+		CE707BCC29E75FDB00F5E219 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE707BCB29E75FDB00F5E219 /* Preview Assets.xcassets */; };
+		CE707BD629E75FDB00F5E219 /* LionBudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BD529E75FDB00F5E219 /* LionBudgetTests.swift */; };
+		CE707BE029E75FDB00F5E219 /* LionBudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BDF29E75FDB00F5E219 /* LionBudgetUITests.swift */; };
+		CE707BE229E75FDB00F5E219 /* LionBudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BE129E75FDB00F5E219 /* LionBudgetUITestsLaunchTests.swift */; };
+		CE707BF629E7608300F5E219 /* DataScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BF129E7608300F5E219 /* DataScanner.swift */; };
+		CE707BF729E7608300F5E219 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BF229E7608300F5E219 /* Place.swift */; };
+		CE707BF829E7608300F5E219 /* BudgetManager+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BF329E7608300F5E219 /* BudgetManager+Location.swift */; };
+		CE707BF929E7608300F5E219 /* DroppedPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BF429E7608300F5E219 /* DroppedPin.swift */; };
+		CE707BFA29E7608300F5E219 /* BudgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BF529E7608300F5E219 /* BudgetManager.swift */; };
+		CE707BFE29E7608A00F5E219 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BFB29E7608A00F5E219 /* BudgetModel.swift */; };
+		CE707BFF29E7608A00F5E219 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BFC29E7608A00F5E219 /* Currency.swift */; };
+		CE707C0029E7608A00F5E219 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BFD29E7608A00F5E219 /* ColorExtension.swift */; };
+		CE707C0D29E7609300F5E219 /* ReadFromReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0129E7609300F5E219 /* ReadFromReceiptView.swift */; };
+		CE707C0E29E7609300F5E219 /* AddItemToCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0229E7609300F5E219 /* AddItemToCategoryView.swift */; };
+		CE707C0F29E7609300F5E219 /* LionBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0329E7609300F5E219 /* LionBudgetApp.swift */; };
+		CE707C1029E7609300F5E219 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0429E7609300F5E219 /* PieChartView.swift */; };
+		CE707C1129E7609300F5E219 /* ScanReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0529E7609300F5E219 /* ScanReceiptView.swift */; };
+		CE707C1229E7609300F5E219 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0629E7609300F5E219 /* HomeView.swift */; };
+		CE707C1329E7609300F5E219 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0729E7609300F5E219 /* AddCategoryView.swift */; };
+		CE707C1429E7609300F5E219 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0829E7609300F5E219 /* PieSliceView.swift */; };
+		CE707C1529E7609300F5E219 /* CategoryHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0929E7609300F5E219 /* CategoryHistoryView.swift */; };
+		CE707C1629E7609300F5E219 /* EditCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0A29E7609300F5E219 /* EditCategoryView.swift */; };
+		CE707C1729E7609300F5E219 /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0B29E7609300F5E219 /* BarGraphView.swift */; };
+		CE707C1829E7609300F5E219 /* CreateZeroBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0C29E7609300F5E219 /* CreateZeroBudgetView.swift */; };
+		CE707C2229E760A300F5E219 /* NearbyRestaurantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C1A29E760A300F5E219 /* NearbyRestaurantsView.swift */; };
+		CE707C2329E760A300F5E219 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C1B29E760A300F5E219 /* MapView.swift */; };
+		CE707C2429E760A300F5E219 /* UIMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C1C29E760A300F5E219 /* UIMap.swift */; };
+		CE707C2529E760A300F5E219 /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C1D29E760A300F5E219 /* MapCoordinator.swift */; };
+		CE707C2629E760A300F5E219 /* DistanceFromRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C1E29E760A300F5E219 /* DistanceFromRestaurant.swift */; };
+		CE707C2729E760A300F5E219 /* MapTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C1F29E760A300F5E219 /* MapTypeButton.swift */; };
+		CE707C2829E760A300F5E219 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C2029E760A300F5E219 /* DirectionsView.swift */; };
+		CE707C2929E760A300F5E219 /* UserLocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C2129E760A300F5E219 /* UserLocationButton.swift */; };
+		CE707C3129E7620B00F5E219 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE707C3029E7620B00F5E219 /* WidgetKit.framework */; };
+		CE707C3329E7620B00F5E219 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE707C3229E7620B00F5E219 /* SwiftUI.framework */; };
+		CE707C3629E7620B00F5E219 /* MyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C3529E7620B00F5E219 /* MyWidgetBundle.swift */; };
+		CE707C3829E7620B00F5E219 /* MyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C3729E7620B00F5E219 /* MyWidget.swift */; };
+		CE707C3A29E7620C00F5E219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE707C3929E7620C00F5E219 /* Assets.xcassets */; };
+		CE707C3E29E7620C00F5E219 /* MyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE707C2E29E7620B00F5E219 /* MyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE707C4329E7629C00F5E219 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BFB29E7608A00F5E219 /* BudgetModel.swift */; };
+		CE707C4429E762AA00F5E219 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707BFD29E7608A00F5E219 /* ColorExtension.swift */; };
+		CE707C4529E762BA00F5E219 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C0829E7609300F5E219 /* PieSliceView.swift */; };
+		CEDECE5629E775C200B34D38 /* MyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE707C3729E7620B00F5E219 /* MyWidget.swift */; };
+		CEDECE5829E7763000B34D38 /* ExportedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDECE5729E7763000B34D38 /* ExportedImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE707BD229E75FDB00F5E219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE707BB929E75FDA00F5E219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE707BC029E75FDA00F5E219;
+			remoteInfo = LionBudget;
+		};
+		CE707BDC29E75FDB00F5E219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE707BB929E75FDA00F5E219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE707BC029E75FDA00F5E219;
+			remoteInfo = LionBudget;
+		};
+		CE707C3C29E7620C00F5E219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE707BB929E75FDA00F5E219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE707C2D29E7620B00F5E219;
+			remoteInfo = MyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE707C3F29E7620C00F5E219 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE707C3E29E7620C00F5E219 /* MyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE707BC129E75FDA00F5E219 /* LionBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE707BC829E75FDB00F5E219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE707BCB29E75FDB00F5E219 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE707BD129E75FDB00F5E219 /* LionBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE707BD529E75FDB00F5E219 /* LionBudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionBudgetTests.swift; sourceTree = "<group>"; };
+		CE707BDB29E75FDB00F5E219 /* LionBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE707BDF29E75FDB00F5E219 /* LionBudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionBudgetUITests.swift; sourceTree = "<group>"; };
+		CE707BE129E75FDB00F5E219 /* LionBudgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionBudgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE707BF129E7608300F5E219 /* DataScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataScanner.swift; sourceTree = "<group>"; };
+		CE707BF229E7608300F5E219 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		CE707BF329E7608300F5E219 /* BudgetManager+Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BudgetManager+Location.swift"; sourceTree = "<group>"; };
+		CE707BF429E7608300F5E219 /* DroppedPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroppedPin.swift; sourceTree = "<group>"; };
+		CE707BF529E7608300F5E219 /* BudgetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetManager.swift; sourceTree = "<group>"; };
+		CE707BFB29E7608A00F5E219 /* BudgetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		CE707BFC29E7608A00F5E219 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		CE707BFD29E7608A00F5E219 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		CE707C0129E7609300F5E219 /* ReadFromReceiptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadFromReceiptView.swift; sourceTree = "<group>"; };
+		CE707C0229E7609300F5E219 /* AddItemToCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemToCategoryView.swift; sourceTree = "<group>"; };
+		CE707C0329E7609300F5E219 /* LionBudgetApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionBudgetApp.swift; sourceTree = "<group>"; };
+		CE707C0429E7609300F5E219 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		CE707C0529E7609300F5E219 /* ScanReceiptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanReceiptView.swift; sourceTree = "<group>"; };
+		CE707C0629E7609300F5E219 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE707C0729E7609300F5E219 /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		CE707C0829E7609300F5E219 /* PieSliceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		CE707C0929E7609300F5E219 /* CategoryHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHistoryView.swift; sourceTree = "<group>"; };
+		CE707C0A29E7609300F5E219 /* EditCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCategoryView.swift; sourceTree = "<group>"; };
+		CE707C0B29E7609300F5E219 /* BarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		CE707C0C29E7609300F5E219 /* CreateZeroBudgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateZeroBudgetView.swift; sourceTree = "<group>"; };
+		CE707C1A29E760A300F5E219 /* NearbyRestaurantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyRestaurantsView.swift; sourceTree = "<group>"; };
+		CE707C1B29E760A300F5E219 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CE707C1C29E760A300F5E219 /* UIMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMap.swift; sourceTree = "<group>"; };
+		CE707C1D29E760A300F5E219 /* MapCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		CE707C1E29E760A300F5E219 /* DistanceFromRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceFromRestaurant.swift; sourceTree = "<group>"; };
+		CE707C1F29E760A300F5E219 /* MapTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTypeButton.swift; sourceTree = "<group>"; };
+		CE707C2029E760A300F5E219 /* DirectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		CE707C2129E760A300F5E219 /* UserLocationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationButton.swift; sourceTree = "<group>"; };
+		CE707C2E29E7620B00F5E219 /* MyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE707C3029E7620B00F5E219 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CE707C3229E7620B00F5E219 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CE707C3529E7620B00F5E219 /* MyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetBundle.swift; sourceTree = "<group>"; };
+		CE707C3729E7620B00F5E219 /* MyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidget.swift; sourceTree = "<group>"; };
+		CE707C3929E7620C00F5E219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE707C3B29E7620C00F5E219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE707C4A29E769B200F5E219 /* LionBudget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LionBudget.entitlements; sourceTree = "<group>"; };
+		CE707C4B29E769C800F5E219 /* MyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CEDECE5729E7763000B34D38 /* ExportedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportedImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE707BBE29E75FDA00F5E219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707BCE29E75FDB00F5E219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707BD829E75FDB00F5E219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707C2B29E7620B00F5E219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707C3329E7620B00F5E219 /* SwiftUI.framework in Frameworks */,
+				CE707C3129E7620B00F5E219 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE707BB829E75FDA00F5E219 = {
+			isa = PBXGroup;
+			children = (
+				CE707C4B29E769C800F5E219 /* MyWidgetExtension.entitlements */,
+				CE707BC329E75FDA00F5E219 /* LionBudget */,
+				CE707BD429E75FDB00F5E219 /* LionBudgetTests */,
+				CE707BDE29E75FDB00F5E219 /* LionBudgetUITests */,
+				CE707C3429E7620B00F5E219 /* MyWidget */,
+				CE707C2F29E7620B00F5E219 /* Frameworks */,
+				CE707BC229E75FDA00F5E219 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE707BC229E75FDA00F5E219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE707BC129E75FDA00F5E219 /* LionBudget.app */,
+				CE707BD129E75FDB00F5E219 /* LionBudgetTests.xctest */,
+				CE707BDB29E75FDB00F5E219 /* LionBudgetUITests.xctest */,
+				CE707C2E29E7620B00F5E219 /* MyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE707BC329E75FDA00F5E219 /* LionBudget */ = {
+			isa = PBXGroup;
+			children = (
+				CE707C4A29E769B200F5E219 /* LionBudget.entitlements */,
+				CE707BEE29E7604C00F5E219 /* View-Models */,
+				CE707BEF29E7605000F5E219 /* Models */,
+				CE707BF029E7605400F5E219 /* Views */,
+				CE707BC829E75FDB00F5E219 /* Assets.xcassets */,
+				CE707BCA29E75FDB00F5E219 /* Preview Content */,
+			);
+			path = LionBudget;
+			sourceTree = "<group>";
+		};
+		CE707BCA29E75FDB00F5E219 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE707BCB29E75FDB00F5E219 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE707BD429E75FDB00F5E219 /* LionBudgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE707BD529E75FDB00F5E219 /* LionBudgetTests.swift */,
+			);
+			path = LionBudgetTests;
+			sourceTree = "<group>";
+		};
+		CE707BDE29E75FDB00F5E219 /* LionBudgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE707BDF29E75FDB00F5E219 /* LionBudgetUITests.swift */,
+				CE707BE129E75FDB00F5E219 /* LionBudgetUITestsLaunchTests.swift */,
+			);
+			path = LionBudgetUITests;
+			sourceTree = "<group>";
+		};
+		CE707BEE29E7604C00F5E219 /* View-Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE707BF529E7608300F5E219 /* BudgetManager.swift */,
+				CE707BF329E7608300F5E219 /* BudgetManager+Location.swift */,
+				CE707BF129E7608300F5E219 /* DataScanner.swift */,
+				CE707BF429E7608300F5E219 /* DroppedPin.swift */,
+				CE707BF229E7608300F5E219 /* Place.swift */,
+			);
+			path = "View-Models";
+			sourceTree = "<group>";
+		};
+		CE707BEF29E7605000F5E219 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE707BFB29E7608A00F5E219 /* BudgetModel.swift */,
+				CE707BFD29E7608A00F5E219 /* ColorExtension.swift */,
+				CE707BFC29E7608A00F5E219 /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE707BF029E7605400F5E219 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE707C1929E7609700F5E219 /* Map Views */,
+				CE707C0729E7609300F5E219 /* AddCategoryView.swift */,
+				CE707C0229E7609300F5E219 /* AddItemToCategoryView.swift */,
+				CE707C0B29E7609300F5E219 /* BarGraphView.swift */,
+				CE707C0929E7609300F5E219 /* CategoryHistoryView.swift */,
+				CE707C0C29E7609300F5E219 /* CreateZeroBudgetView.swift */,
+				CE707C0A29E7609300F5E219 /* EditCategoryView.swift */,
+				CE707C0629E7609300F5E219 /* HomeView.swift */,
+				CE707C0329E7609300F5E219 /* LionBudgetApp.swift */,
+				CE707C0429E7609300F5E219 /* PieChartView.swift */,
+				CE707C0829E7609300F5E219 /* PieSliceView.swift */,
+				CE707C0129E7609300F5E219 /* ReadFromReceiptView.swift */,
+				CE707C0529E7609300F5E219 /* ScanReceiptView.swift */,
+				CEDECE5729E7763000B34D38 /* ExportedImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE707C1929E7609700F5E219 /* Map Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE707C2029E760A300F5E219 /* DirectionsView.swift */,
+				CE707C1E29E760A300F5E219 /* DistanceFromRestaurant.swift */,
+				CE707C1D29E760A300F5E219 /* MapCoordinator.swift */,
+				CE707C1F29E760A300F5E219 /* MapTypeButton.swift */,
+				CE707C1B29E760A300F5E219 /* MapView.swift */,
+				CE707C1A29E760A300F5E219 /* NearbyRestaurantsView.swift */,
+				CE707C1C29E760A300F5E219 /* UIMap.swift */,
+				CE707C2129E760A300F5E219 /* UserLocationButton.swift */,
+			);
+			path = "Map Views";
+			sourceTree = "<group>";
+		};
+		CE707C2F29E7620B00F5E219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE707C3029E7620B00F5E219 /* WidgetKit.framework */,
+				CE707C3229E7620B00F5E219 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE707C3429E7620B00F5E219 /* MyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CE707C3529E7620B00F5E219 /* MyWidgetBundle.swift */,
+				CE707C3729E7620B00F5E219 /* MyWidget.swift */,
+				CE707C3929E7620C00F5E219 /* Assets.xcassets */,
+				CE707C3B29E7620C00F5E219 /* Info.plist */,
+			);
+			path = MyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE707BC029E75FDA00F5E219 /* LionBudget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE707BE529E75FDB00F5E219 /* Build configuration list for PBXNativeTarget "LionBudget" */;
+			buildPhases = (
+				CE707BBD29E75FDA00F5E219 /* Sources */,
+				CE707BBE29E75FDA00F5E219 /* Frameworks */,
+				CE707BBF29E75FDA00F5E219 /* Resources */,
+				CE707C3F29E7620C00F5E219 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE707C3D29E7620C00F5E219 /* PBXTargetDependency */,
+			);
+			name = LionBudget;
+			productName = LionBudget;
+			productReference = CE707BC129E75FDA00F5E219 /* LionBudget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE707BD029E75FDB00F5E219 /* LionBudgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE707BE829E75FDB00F5E219 /* Build configuration list for PBXNativeTarget "LionBudgetTests" */;
+			buildPhases = (
+				CE707BCD29E75FDB00F5E219 /* Sources */,
+				CE707BCE29E75FDB00F5E219 /* Frameworks */,
+				CE707BCF29E75FDB00F5E219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE707BD329E75FDB00F5E219 /* PBXTargetDependency */,
+			);
+			name = LionBudgetTests;
+			productName = LionBudgetTests;
+			productReference = CE707BD129E75FDB00F5E219 /* LionBudgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE707BDA29E75FDB00F5E219 /* LionBudgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE707BEB29E75FDB00F5E219 /* Build configuration list for PBXNativeTarget "LionBudgetUITests" */;
+			buildPhases = (
+				CE707BD729E75FDB00F5E219 /* Sources */,
+				CE707BD829E75FDB00F5E219 /* Frameworks */,
+				CE707BD929E75FDB00F5E219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE707BDD29E75FDB00F5E219 /* PBXTargetDependency */,
+			);
+			name = LionBudgetUITests;
+			productName = LionBudgetUITests;
+			productReference = CE707BDB29E75FDB00F5E219 /* LionBudgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CE707C2D29E7620B00F5E219 /* MyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE707C4229E7620C00F5E219 /* Build configuration list for PBXNativeTarget "MyWidgetExtension" */;
+			buildPhases = (
+				CE707C2A29E7620B00F5E219 /* Sources */,
+				CE707C2B29E7620B00F5E219 /* Frameworks */,
+				CE707C2C29E7620B00F5E219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWidgetExtension;
+			productName = MyWidgetExtension;
+			productReference = CE707C2E29E7620B00F5E219 /* MyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE707BB929E75FDA00F5E219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE707BC029E75FDA00F5E219 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE707BD029E75FDB00F5E219 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE707BC029E75FDA00F5E219;
+					};
+					CE707BDA29E75FDB00F5E219 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE707BC029E75FDA00F5E219;
+					};
+					CE707C2D29E7620B00F5E219 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CE707BBC29E75FDA00F5E219 /* Build configuration list for PBXProject "LionBudget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE707BB829E75FDA00F5E219;
+			productRefGroup = CE707BC229E75FDA00F5E219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE707BC029E75FDA00F5E219 /* LionBudget */,
+				CE707BD029E75FDB00F5E219 /* LionBudgetTests */,
+				CE707BDA29E75FDB00F5E219 /* LionBudgetUITests */,
+				CE707C2D29E7620B00F5E219 /* MyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE707BBF29E75FDA00F5E219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707BCC29E75FDB00F5E219 /* Preview Assets.xcassets in Resources */,
+				CE707BC929E75FDB00F5E219 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707BCF29E75FDB00F5E219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707BD929E75FDB00F5E219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707C2C29E7620B00F5E219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707C3A29E7620C00F5E219 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE707BBD29E75FDA00F5E219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707C1029E7609300F5E219 /* PieChartView.swift in Sources */,
+				CE707C2329E760A300F5E219 /* MapView.swift in Sources */,
+				CE707BFF29E7608A00F5E219 /* Currency.swift in Sources */,
+				CE707C2229E760A300F5E219 /* NearbyRestaurantsView.swift in Sources */,
+				CE707C1129E7609300F5E219 /* ScanReceiptView.swift in Sources */,
+				CE707C2629E760A300F5E219 /* DistanceFromRestaurant.swift in Sources */,
+				CE707BFE29E7608A00F5E219 /* BudgetModel.swift in Sources */,
+				CEDECE5829E7763000B34D38 /* ExportedImageView.swift in Sources */,
+				CE707BF629E7608300F5E219 /* DataScanner.swift in Sources */,
+				CE707C2929E760A300F5E219 /* UserLocationButton.swift in Sources */,
+				CE707C0D29E7609300F5E219 /* ReadFromReceiptView.swift in Sources */,
+				CE707C2529E760A300F5E219 /* MapCoordinator.swift in Sources */,
+				CE707C0F29E7609300F5E219 /* LionBudgetApp.swift in Sources */,
+				CEDECE5629E775C200B34D38 /* MyWidget.swift in Sources */,
+				CE707C1329E7609300F5E219 /* AddCategoryView.swift in Sources */,
+				CE707C1729E7609300F5E219 /* BarGraphView.swift in Sources */,
+				CE707BF929E7608300F5E219 /* DroppedPin.swift in Sources */,
+				CE707C0E29E7609300F5E219 /* AddItemToCategoryView.swift in Sources */,
+				CE707BF729E7608300F5E219 /* Place.swift in Sources */,
+				CE707C2829E760A300F5E219 /* DirectionsView.swift in Sources */,
+				CE707C2729E760A300F5E219 /* MapTypeButton.swift in Sources */,
+				CE707C2429E760A300F5E219 /* UIMap.swift in Sources */,
+				CE707BFA29E7608300F5E219 /* BudgetManager.swift in Sources */,
+				CE707C1829E7609300F5E219 /* CreateZeroBudgetView.swift in Sources */,
+				CE707C1429E7609300F5E219 /* PieSliceView.swift in Sources */,
+				CE707C1229E7609300F5E219 /* HomeView.swift in Sources */,
+				CE707C1629E7609300F5E219 /* EditCategoryView.swift in Sources */,
+				CE707C1529E7609300F5E219 /* CategoryHistoryView.swift in Sources */,
+				CE707BF829E7608300F5E219 /* BudgetManager+Location.swift in Sources */,
+				CE707C0029E7608A00F5E219 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707BCD29E75FDB00F5E219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707BD629E75FDB00F5E219 /* LionBudgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707BD729E75FDB00F5E219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707BE029E75FDB00F5E219 /* LionBudgetUITests.swift in Sources */,
+				CE707BE229E75FDB00F5E219 /* LionBudgetUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE707C2A29E7620B00F5E219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE707C4529E762BA00F5E219 /* PieSliceView.swift in Sources */,
+				CE707C4329E7629C00F5E219 /* BudgetModel.swift in Sources */,
+				CE707C3629E7620B00F5E219 /* MyWidgetBundle.swift in Sources */,
+				CE707C3829E7620B00F5E219 /* MyWidget.swift in Sources */,
+				CE707C4429E762AA00F5E219 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE707BD329E75FDB00F5E219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE707BC029E75FDA00F5E219 /* LionBudget */;
+			targetProxy = CE707BD229E75FDB00F5E219 /* PBXContainerItemProxy */;
+		};
+		CE707BDD29E75FDB00F5E219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE707BC029E75FDA00F5E219 /* LionBudget */;
+			targetProxy = CE707BDC29E75FDB00F5E219 /* PBXContainerItemProxy */;
+		};
+		CE707C3D29E7620C00F5E219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE707C2D29E7620B00F5E219 /* MyWidgetExtension */;
+			targetProxy = CE707C3C29E7620C00F5E219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE707BE329E75FDB00F5E219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE707BE429E75FDB00F5E219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE707BE629E75FDB00F5E219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LionBudget/LionBudget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionBudget/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your camera to personalize your experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app uses your location to personalize your experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to personalize your experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE707BE729E75FDB00F5E219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LionBudget/LionBudget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionBudget/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your camera to personalize your experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app uses your location to personalize your experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to personalize your experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE707BE929E75FDB00F5E219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionBudget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionBudget";
+			};
+			name = Debug;
+		};
+		CE707BEA29E75FDB00F5E219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionBudget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionBudget";
+			};
+			name = Release;
+		};
+		CE707BEC29E75FDB00F5E219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LionBudget;
+			};
+			name = Debug;
+		};
+		CE707BED29E75FDB00F5E219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LionBudget;
+			};
+			name = Release;
+		};
+		CE707C4029E7620C00F5E219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudget.MyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE707C4129E7620C00F5E219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.yjl5480.LionBudget.MyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE707BBC29E75FDA00F5E219 /* Build configuration list for PBXProject "LionBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE707BE329E75FDB00F5E219 /* Debug */,
+				CE707BE429E75FDB00F5E219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE707BE529E75FDB00F5E219 /* Build configuration list for PBXNativeTarget "LionBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE707BE629E75FDB00F5E219 /* Debug */,
+				CE707BE729E75FDB00F5E219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE707BE829E75FDB00F5E219 /* Build configuration list for PBXNativeTarget "LionBudgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE707BE929E75FDB00F5E219 /* Debug */,
+				CE707BEA29E75FDB00F5E219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE707BEB29E75FDB00F5E219 /* Build configuration list for PBXNativeTarget "LionBudgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE707BEC29E75FDB00F5E219 /* Debug */,
+				CE707BED29E75FDB00F5E219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE707C4229E7620C00F5E219 /* Build configuration list for PBXNativeTarget "MyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE707C4029E7620C00F5E219 /* Debug */,
+				CE707C4129E7620C00F5E219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE707BB929E75FDA00F5E219 /* Project object */;
+}

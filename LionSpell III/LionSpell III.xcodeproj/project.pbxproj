@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4B9C6B298335AE007623AD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE4B9C6A298335AE007623AD /* ConfettiSwiftUI */; };
+		CE81989A2981CCCD00222C01 /* LionSpell_IIIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198992981CCCD00222C01 /* LionSpell_IIIApp.swift */; };
+		CE81989C2981CCCD00222C01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81989B2981CCCD00222C01 /* ContentView.swift */; };
+		CE81989E2981CCCE00222C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81989D2981CCCE00222C01 /* Assets.xcassets */; };
+		CE8198A12981CCCE00222C01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8198A02981CCCE00222C01 /* Preview Assets.xcassets */; };
+		CE8198AB2981CCCE00222C01 /* LionSpell_IIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198AA2981CCCE00222C01 /* LionSpell_IIITests.swift */; };
+		CE8198B52981CCCE00222C01 /* LionSpell_IIIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198B42981CCCE00222C01 /* LionSpell_IIIUITests.swift */; };
+		CE8198B72981CCCE00222C01 /* LionSpell_IIIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198B62981CCCE00222C01 /* LionSpell_IIIUITestsLaunchTests.swift */; };
+		CE8198C72981CD2100222C01 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198C62981CD2100222C01 /* TitleView.swift */; };
+		CE8198C92981CD3100222C01 /* WordsFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198C82981CD3100222C01 /* WordsFoundView.swift */; };
+		CE8198CB2981CD3B00222C01 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198CA2981CD3B00222C01 /* ScoreView.swift */; };
+		CE8198CD2981CD4600222C01 /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198CC2981CD4600222C01 /* LettersView.swift */; };
+		CE8198CF2981CD5100222C01 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198CE2981CD5100222C01 /* ButtonsView.swift */; };
+		CE8198D12981CD5A00222C01 /* ActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198D02981CD5A00222C01 /* ActionButtonsView.swift */; };
+		CE8198D32981CD6300222C01 /* SettingsButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198D22981CD6300222C01 /* SettingsButtonsView.swift */; };
+		CE8198D82981CDFD00222C01 /* LionSpellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198D72981CDFD00222C01 /* LionSpellManager.swift */; };
+		CE8198DA2981CE1700222C01 /* LionSpellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198D92981CE1700222C01 /* LionSpellModel.swift */; };
+		CE8198DE2981CF9D00222C01 /* ButtonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198DD2981CF9D00222C01 /* ButtonShapes.swift */; };
+		CE8198E02981DCD200222C01 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198DF2981DCD200222C01 /* PreferencesView.swift */; };
+		CE8198E22981DCE500222C01 /* HintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8198E12981DCE500222C01 /* HintsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8198A72981CCCE00222C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE81988E2981CCCD00222C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8198952981CCCD00222C01;
+			remoteInfo = "LionSpell III";
+		};
+		CE8198B12981CCCE00222C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE81988E2981CCCD00222C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8198952981CCCD00222C01;
+			remoteInfo = "LionSpell III";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8198962981CCCD00222C01 /* LionSpell III.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LionSpell III.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8198992981CCCD00222C01 /* LionSpell_IIIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpell_IIIApp.swift; sourceTree = "<group>"; };
+		CE81989B2981CCCD00222C01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE81989D2981CCCE00222C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8198A02981CCCE00222C01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8198A62981CCCE00222C01 /* LionSpell IIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LionSpell IIITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8198AA2981CCCE00222C01 /* LionSpell_IIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpell_IIITests.swift; sourceTree = "<group>"; };
+		CE8198B02981CCCE00222C01 /* LionSpell IIIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LionSpell IIIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8198B42981CCCE00222C01 /* LionSpell_IIIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpell_IIIUITests.swift; sourceTree = "<group>"; };
+		CE8198B62981CCCE00222C01 /* LionSpell_IIIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpell_IIIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE8198C32981CCE300222C01 /* LionSpell-III-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LionSpell-III-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE8198C62981CD2100222C01 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		CE8198C82981CD3100222C01 /* WordsFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFoundView.swift; sourceTree = "<group>"; };
+		CE8198CA2981CD3B00222C01 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		CE8198CC2981CD4600222C01 /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
+		CE8198CE2981CD5100222C01 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		CE8198D02981CD5A00222C01 /* ActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsView.swift; sourceTree = "<group>"; };
+		CE8198D22981CD6300222C01 /* SettingsButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonsView.swift; sourceTree = "<group>"; };
+		CE8198D72981CDFD00222C01 /* LionSpellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpellManager.swift; sourceTree = "<group>"; };
+		CE8198D92981CE1700222C01 /* LionSpellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionSpellModel.swift; sourceTree = "<group>"; };
+		CE8198DD2981CF9D00222C01 /* ButtonShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShapes.swift; sourceTree = "<group>"; };
+		CE8198DF2981DCD200222C01 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		CE8198E12981DCE500222C01 /* HintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8198932981CCCD00222C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4B9C6B298335AE007623AD /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8198A32981CCCE00222C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8198AD2981CCCE00222C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE81988D2981CCCD00222C01 = {
+			isa = PBXGroup;
+			children = (
+				CE8198982981CCCD00222C01 /* LionSpell III */,
+				CE8198A92981CCCE00222C01 /* LionSpell IIITests */,
+				CE8198B32981CCCE00222C01 /* LionSpell IIIUITests */,
+				CE8198972981CCCD00222C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8198972981CCCD00222C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198962981CCCD00222C01 /* LionSpell III.app */,
+				CE8198A62981CCCE00222C01 /* LionSpell IIITests.xctest */,
+				CE8198B02981CCCE00222C01 /* LionSpell IIIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8198982981CCCD00222C01 /* LionSpell III */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198C32981CCE300222C01 /* LionSpell-III-Info.plist */,
+				CE8198D52981CDE800222C01 /* View-Models */,
+				CE8198D62981CDF000222C01 /* Models */,
+				CE8198D42981CDD500222C01 /* Views */,
+				CE81989D2981CCCE00222C01 /* Assets.xcassets */,
+				CE81989F2981CCCE00222C01 /* Preview Content */,
+			);
+			path = "LionSpell III";
+			sourceTree = "<group>";
+		};
+		CE81989F2981CCCE00222C01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198A02981CCCE00222C01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8198A92981CCCE00222C01 /* LionSpell IIITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198AA2981CCCE00222C01 /* LionSpell_IIITests.swift */,
+			);
+			path = "LionSpell IIITests";
+			sourceTree = "<group>";
+		};
+		CE8198B32981CCCE00222C01 /* LionSpell IIIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198B42981CCCE00222C01 /* LionSpell_IIIUITests.swift */,
+				CE8198B62981CCCE00222C01 /* LionSpell_IIIUITestsLaunchTests.swift */,
+			);
+			path = "LionSpell IIIUITests";
+			sourceTree = "<group>";
+		};
+		CE8198D42981CDD500222C01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198992981CCCD00222C01 /* LionSpell_IIIApp.swift */,
+				CE81989B2981CCCD00222C01 /* ContentView.swift */,
+				CE8198C62981CD2100222C01 /* TitleView.swift */,
+				CE8198C82981CD3100222C01 /* WordsFoundView.swift */,
+				CE8198CA2981CD3B00222C01 /* ScoreView.swift */,
+				CE8198CC2981CD4600222C01 /* LettersView.swift */,
+				CE8198CE2981CD5100222C01 /* ButtonsView.swift */,
+				CE8198D02981CD5A00222C01 /* ActionButtonsView.swift */,
+				CE8198D22981CD6300222C01 /* SettingsButtonsView.swift */,
+				CE8198DD2981CF9D00222C01 /* ButtonShapes.swift */,
+				CE8198DF2981DCD200222C01 /* PreferencesView.swift */,
+				CE8198E12981DCE500222C01 /* HintsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE8198D52981CDE800222C01 /* View-Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198D72981CDFD00222C01 /* LionSpellManager.swift */,
+			);
+			path = "View-Models";
+			sourceTree = "<group>";
+		};
+		CE8198D62981CDF000222C01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE8198D92981CE1700222C01 /* LionSpellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8198952981CCCD00222C01 /* LionSpell III */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8198BA2981CCCE00222C01 /* Build configuration list for PBXNativeTarget "LionSpell III" */;
+			buildPhases = (
+				CE8198922981CCCD00222C01 /* Sources */,
+				CE8198932981CCCD00222C01 /* Frameworks */,
+				CE8198942981CCCD00222C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LionSpell III";
+			packageProductDependencies = (
+				CE4B9C6A298335AE007623AD /* ConfettiSwiftUI */,
+			);
+			productName = "LionSpell III";
+			productReference = CE8198962981CCCD00222C01 /* LionSpell III.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8198A52981CCCE00222C01 /* LionSpell IIITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8198BD2981CCCE00222C01 /* Build configuration list for PBXNativeTarget "LionSpell IIITests" */;
+			buildPhases = (
+				CE8198A22981CCCE00222C01 /* Sources */,
+				CE8198A32981CCCE00222C01 /* Frameworks */,
+				CE8198A42981CCCE00222C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8198A82981CCCE00222C01 /* PBXTargetDependency */,
+			);
+			name = "LionSpell IIITests";
+			productName = "LionSpell IIITests";
+			productReference = CE8198A62981CCCE00222C01 /* LionSpell IIITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE8198AF2981CCCE00222C01 /* LionSpell IIIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8198C02981CCCE00222C01 /* Build configuration list for PBXNativeTarget "LionSpell IIIUITests" */;
+			buildPhases = (
+				CE8198AC2981CCCE00222C01 /* Sources */,
+				CE8198AD2981CCCE00222C01 /* Frameworks */,
+				CE8198AE2981CCCE00222C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8198B22981CCCE00222C01 /* PBXTargetDependency */,
+			);
+			name = "LionSpell IIIUITests";
+			productName = "LionSpell IIIUITests";
+			productReference = CE8198B02981CCCE00222C01 /* LionSpell IIIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE81988E2981CCCD00222C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE8198952981CCCD00222C01 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CE8198A52981CCCE00222C01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE8198952981CCCD00222C01;
+					};
+					CE8198AF2981CCCE00222C01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE8198952981CCCD00222C01;
+					};
+				};
+			};
+			buildConfigurationList = CE8198912981CCCD00222C01 /* Build configuration list for PBXProject "LionSpell III" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE81988D2981CCCD00222C01;
+			packageReferences = (
+				CE4B9C69298335AE007623AD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = CE8198972981CCCD00222C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8198952981CCCD00222C01 /* LionSpell III */,
+				CE8198A52981CCCE00222C01 /* LionSpell IIITests */,
+				CE8198AF2981CCCE00222C01 /* LionSpell IIIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8198942981CCCD00222C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8198A12981CCCE00222C01 /* Preview Assets.xcassets in Resources */,
+				CE81989E2981CCCE00222C01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8198A42981CCCE00222C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8198AE2981CCCE00222C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8198922981CCCD00222C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81989C2981CCCD00222C01 /* ContentView.swift in Sources */,
+				CE8198E22981DCE500222C01 /* HintsView.swift in Sources */,
+				CE8198C92981CD3100222C01 /* WordsFoundView.swift in Sources */,
+				CE8198D82981CDFD00222C01 /* LionSpellManager.swift in Sources */,
+				CE8198E02981DCD200222C01 /* PreferencesView.swift in Sources */,
+				CE8198DA2981CE1700222C01 /* LionSpellModel.swift in Sources */,
+				CE8198D12981CD5A00222C01 /* ActionButtonsView.swift in Sources */,
+				CE8198CD2981CD4600222C01 /* LettersView.swift in Sources */,
+				CE81989A2981CCCD00222C01 /* LionSpell_IIIApp.swift in Sources */,
+				CE8198CF2981CD5100222C01 /* ButtonsView.swift in Sources */,
+				CE8198C72981CD2100222C01 /* TitleView.swift in Sources */,
+				CE8198DE2981CF9D00222C01 /* ButtonShapes.swift in Sources */,
+				CE8198D32981CD6300222C01 /* SettingsButtonsView.swift in Sources */,
+				CE8198CB2981CD3B00222C01 /* ScoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8198A22981CCCE00222C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8198AB2981CCCE00222C01 /* LionSpell_IIITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8198AC2981CCCE00222C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8198B52981CCCE00222C01 /* LionSpell_IIIUITests.swift in Sources */,
+				CE8198B72981CCCE00222C01 /* LionSpell_IIIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8198A82981CCCE00222C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8198952981CCCD00222C01 /* LionSpell III */;
+			targetProxy = CE8198A72981CCCE00222C01 /* PBXContainerItemProxy */;
+		};
+		CE8198B22981CCCE00222C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8198952981CCCD00222C01 /* LionSpell III */;
+			targetProxy = CE8198B12981CCCE00222C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE8198B82981CCCE00222C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8198B92981CCCE00222C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8198BB2981CCCE00222C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionSpell III/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LionSpell-III-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.yjl5480.LionSpell-III";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8198BC2981CCCE00222C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LionSpell III/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LionSpell-III-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.yjl5480.LionSpell-III";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE8198BE2981CCCE00222C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.yjl5480.LionSpell-IIITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionSpell III.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionSpell III";
+			};
+			name = Debug;
+		};
+		CE8198BF2981CCCE00222C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.yjl5480.LionSpell-IIITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionSpell III.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LionSpell III";
+			};
+			name = Release;
+		};
+		CE8198C12981CCCE00222C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.yjl5480.LionSpell-IIIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LionSpell III";
+			};
+			name = Debug;
+		};
+		CE8198C22981CCCE00222C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XD879SJYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.yjl5480.LionSpell-IIIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LionSpell III";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8198912981CCCD00222C01 /* Build configuration list for PBXProject "LionSpell III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8198B82981CCCE00222C01 /* Debug */,
+				CE8198B92981CCCE00222C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8198BA2981CCCE00222C01 /* Build configuration list for PBXNativeTarget "LionSpell III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8198BB2981CCCE00222C01 /* Debug */,
+				CE8198BC2981CCCE00222C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8198BD2981CCCE00222C01 /* Build configuration list for PBXNativeTarget "LionSpell IIITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8198BE2981CCCE00222C01 /* Debug */,
+				CE8198BF2981CCCE00222C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8198C02981CCCE00222C01 /* Build configuration list for PBXNativeTarget "LionSpell IIIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8198C12981CCCE00222C01 /* Debug */,
+				CE8198C22981CCCE00222C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE4B9C69298335AE007623AD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE4B9C6A298335AE007623AD /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4B9C69298335AE007623AD /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE81988E2981CCCD00222C01 /* Project object */;
+}
